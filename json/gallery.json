@@ -1,0 +1,24 @@
+{
+ "fotos":[
+  {
+   "img":"images/Image.jpeg",
+   "titulo":"Instante de felicidad"
+  },
+  {
+   "img":"images/foto2.jpg",
+   "titulo":"Promesa eterna"
+  },
+  {
+   "img":"images/foto3.jpg",
+   "titulo":"Un segundo infinito"
+  },
+  {
+   "img":"images/foto4.jpg",
+   "titulo":"Luz en silencio"
+  },
+  {
+   "img":"images/foto5.jpg",
+   "titulo":"Historias sin palabras"
+  }
+ ]
+}

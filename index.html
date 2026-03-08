@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Arte de Capturar Instantes</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>Instantes Eternos</h1>
+<div class="menu-toggle" id="menuToggle">
+☰
+</div>
+<nav id="navMenu">
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#galeria">Galería</a></li>
+<li><a href="#video">Video</a></li>
+<li><a href="#paquetes">Paquetes</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+</header>
+<section id="inicio" class="hero">
+<div class="hero-text">
+<h2>La fotografía no captura rostros</h2>
+<p>Captura emociones que el tiempo no puede borrar</p>
+</div>
+</section>
+<section id="fotografo">
+<h2>El fotógrafo</h2>
+<div id="photographerInfo"></div>
+</section>
+<section class="audio">
+<audio id="introAudio" autoplay loop>
+<source src="audio/Audio.mp3" type="audio/mpeg">
+</audio>
+</section>
+<section id="galeria">
+<h2>Momentos congelados</h2>
+<div id="galleryGrid" class="grid">
+</div>
+</section>
+<section id="video">
+<h2>Detrás del lente</h2>
+<video controls>
+<source src="video/reel.mp4" type="video/mp4">
+</video>
+</section>
+<section id="paquetes">
+<h2>Paquetes Fotográficos</h2>
+<table class="pricing">
+<tr>
+<th>Plan</th>
+<th>Fotos</th>
+<th>Duración</th>
+<th>Precio</th>
+</tr>
+<tr>
+<td>Básico</td>
+<td>50</td>
+<td>2 horas</td>
+<td>$60</td>
+</tr>
+<tr>
+<td>Premium</td>
+<td>120</td>
+<td>5 horas</td>
+<td>$120</td>
+</tr>
+<tr>
+<td>Elite</td>
+<td>200</td>
+<td>Evento completo</td>
+<td>$200</td>
+</tr>
+</table>
+</section>
+<section id="contacto">
+<h2>Contáctame</h2>
+<form id="formulario">
+<input type="text" placeholder="Nombre" required>
+<input type="email" placeholder="correo@ejemplo.com" required>
+<textarea placeholder="Tu mensaje"></textarea>
+<button type="submit">Enviar</button>
+</form>
+</section>
+<footer>
+<p>Sígueme en redes</p>
+<div class="social">
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-tiktok"></i></a>
+</div>
+<p>© 2026 Instantes Eternos</p>
+</footer>
+<script src="js/script.js"></script>
+<div id="lightbox" class="lightbox">
+<span class="close">&times;</span>
+<img class="lightbox-content" id="lightboxImg">
+</div>
+</body>
+</html>
